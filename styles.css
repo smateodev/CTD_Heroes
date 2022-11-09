@@ -22,46 +22,63 @@ header {
 
 /* Main */
 
-h2.nombreHeroe {
-    text-align: center;
-    text-transform: uppercase;
-}
-
 article.heroe {
+    width: 200px;
+    height: 529px;
+    padding: 100px;
     position: relative;
-    border: solid 3px black;
-    box-sizing: border-box;
-    width: 33.3%;
-    padding: 50px;
 }
 
-div.perfilBatman {
+.fondo {
     border-radius: 16px 16px 0px 0px;
     background-image: url(/img/Fondo_Batman.png);
-    background-size: contain;
-    width: 100%;
-    height: 335px;
+    background-size: cover;
+    background-repeat: none;
+    width: 300px;
+    height: 193px;
 }
 
-div.foto {
+.foto {
+    border-radius: 120px;
+    background-image: url(/img/Batman.png);
+    background-repeat: none;
     position: absolute;
-    
+    height: 120px;
+    width: 120px;
+    top: 32%;
+    left: 47%;
 }
 
-div.descripcion {
-    border: solid 1px green;
-    text-align: left;
+h2.nombreHeroe {
+    text-transform: uppercase;
+    position: absolute;
+    top: 48%;
+    left: 50%;
 }
 
-div.seeMore {
+.texto {
+    position: absolute;
+    bottom: 25%;
+    padding: 10px;
+
+}
+
+.descripcion {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 336px;
+}
+
+.seeMore {
+    position: absolute;
+    color: #FFFFFF;
     text-align: center;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    left: 45%;
+    bottom: 18%;
 }
 
 /* Footer */
-
-footer {
-    bottom: 0;
-    background-color: #00669F;
-    color: #FFF9F9;
-    padding: 1px 20px;
-}
