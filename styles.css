@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Descuentos */
@@ -7,29 +7,34 @@ div.descuentos {
     position: fixed;
     background-color: #1CD1B0;
     padding: 10px 20px;
+    width: 100%;
     height: 20px;
+    left: 8px;
+    top: 0px;
 }
 
 /* Header */
 header {
+    position: relative;
     background-color: #00669F;
     font-size: 20px;
-    padding: 1px 20px;
+    font-style: normal;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    height: 100px;
-    top: 40px;
+    top: 32px;
+    padding: 20px 20px;
 }
 
 /* Main */
 
 article.heroe {
+    display: inline-block;
     width: 200px;
     height: 529px;
     padding: 100px;
     position: relative;
 }
 
-.fondo {
+.fondo1 {
     border-radius: 16px 16px 0px 0px;
     background-image: url(/img/Fondo_Batman.png);
     background-size: cover;
@@ -38,10 +43,29 @@ article.heroe {
     height: 193px;
 }
 
-.foto {
-    border-radius: 120px;
+.fondo2 {
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(/img/Fondo_Harley.png);
+    background-size: cover;
+    background-repeat: none;
+    width: 300px;
+    height: 193px;
+}
+
+.fondo3 {
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(/img/FondoHulk.jpg);
+    background-size: cover;
+    background-repeat: none;
+    width: 300px;
+    height: 193px;
+}
+
+.foto1 {
+    border-radius: 50%;
     background-image: url(/img/Batman.png);
     background-repeat: none;
+    background-size: contain;
     position: absolute;
     height: 120px;
     width: 120px;
@@ -49,18 +73,28 @@ article.heroe {
     left: 47%;
 }
 
-h2.nombreHeroe {
-    text-transform: uppercase;
+.foto2 {
+    border-radius: 50%;
+    background-image: url(/img/Harley.png);
+    background-repeat: none;
+    background-size: contain;
     position: absolute;
-    top: 48%;
-    left: 50%;
+    height: 120px;
+    width: 120px;
+    top: 32%;
+    left: 47%;
 }
 
-.texto {
+.foto3 {
+    border-radius: 50%;
+    background-image: url(/img/Hulk.jpg);
+    background-repeat: none;
+    background-size: contain;
     position: absolute;
-    bottom: 25%;
-    padding: 10px;
-
+    height: 120px;
+    width: 120px;
+    top: 32%;
+    left: 47%;
 }
 
 .descripcion {
@@ -70,15 +104,53 @@ h2.nombreHeroe {
     height: 336px;
 }
 
+h2.nombreHeroe1 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+
+h2.nombreHeroe2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 48%;
+    left: 42%;
+}
+
+h2.nombreHeroe3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 48%;
+    left: 53%;
+}
+
+.texto {
+    position: absolute;
+    bottom: 22%;
+    padding: 10px;
+}
+
 .seeMore {
     position: absolute;
     color: #FFFFFF;
     text-align: center;
-    width: 128.78px;
-    height: 48.52px;
+    width: 130px;
     background-color: #00669F;
     left: 45%;
-    bottom: 18%;
+    bottom: 16%;
+    padding: 15px 0px;
 }
 
 /* Footer */
+
+footer {
+    box-sizing: border-box;
+    font-style: normal;
+    color: #FFFFFF;
+    width: 100%;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 0px;
+    padding-left: 10px
+}
