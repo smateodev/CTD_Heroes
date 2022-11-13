@@ -36,7 +36,7 @@ article.heroe {
 
 .fondo1 {
     border-radius: 16px 16px 0px 0px;
-    background-image: url(/img/Fondo_Batman.png);
+    background-image: url('/img/Fondo_Batman.png');
     background-size: cover;
     background-repeat: none;
     width: 300px;
