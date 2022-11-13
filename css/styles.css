@@ -36,7 +36,7 @@ article.heroe {
 
 .fondo1 {
     border-radius: 16px 16px 0px 0px;
-    background-image: url('/img/Fondo_Batman.png');
+    background-image: url();
     background-size: cover;
     background-repeat: none;
     width: 300px;
@@ -45,7 +45,7 @@ article.heroe {
 
 .fondo2 {
     border-radius: 16px 16px 0px 0px;
-    background-image: url(/img/Fondo_Harley.png);
+    background-image: url(img/fondo_harley.png);
     background-size: cover;
     background-repeat: none;
     width: 300px;
@@ -54,7 +54,7 @@ article.heroe {
 
 .fondo3 {
     border-radius: 16px 16px 0px 0px;
-    background-image: url(/img/FondoHulk.jpg);
+    background-image: url(/img/fondo_hulk.jpg);
     background-size: cover;
     background-repeat: none;
     width: 300px;
@@ -63,7 +63,7 @@ article.heroe {
 
 .foto1 {
     border-radius: 50%;
-    background-image: url(/img/Batman.png);
+    background-image: url(/img/batman.png);
     background-repeat: none;
     background-size: contain;
     position: absolute;
@@ -75,7 +75,7 @@ article.heroe {
 
 .foto2 {
     border-radius: 50%;
-    background-image: url(/img/Harley.png);
+    background-image: url(/img/harley.png);
     background-repeat: none;
     background-size: contain;
     position: absolute;
@@ -87,7 +87,7 @@ article.heroe {
 
 .foto3 {
     border-radius: 50%;
-    background-image: url(/img/Hulk.jpg);
+    background-image: url(/img/hulk.jpg);
     background-repeat: none;
     background-size: contain;
     position: absolute;
