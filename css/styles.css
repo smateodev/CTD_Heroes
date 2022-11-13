@@ -45,7 +45,7 @@ article.heroe {
 
 .fondo2 {
     border-radius: 16px 16px 0px 0px;
-    background-image: url(img/fondo_harley.png);
+    background-image: url(/img/fondo_harley.png);
     background-size: cover;
     background-repeat: none;
     width: 300px;
